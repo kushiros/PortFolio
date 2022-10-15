@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Juan Cruz Dominguez</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/a7d491a4cd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="../sources/Portfolio.png" class="logo">
+                <ul id = "sidemenu">
+                    <li><a href="#header"> Inicio  </a> </li>
+                    <li><a href="#About"> Acerca de mi  </a> </li>
+                    <li><a href="#services"> Servicios </a> </li>
+                    <li><a href="#portfolio"> Portfolio </a> </li>
+                    <li><a href="#contact"> Contacto </a> </li>
+                    <li><a href="../index.html">English</a></li>
+                    <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Java Developer</p>
+                <h1>Hola! Soy <span>Juan Cruz</span> <br> Dominguez de Argentina</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------- about -------- -->
+
+
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="../sources/about-me.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Acerca de mi</h1>
+                    <p> Soy estudiante de la Licenciatura en Ciencias de la
+                        Computación en la Universidad Nacional del Sur,
+                        actualmente estoy cursando materias del tercer año.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Competencias</p>
+                        <p class="tab-links "onclick="opentab('Experience')">Experiencia</p>
+                        <p class="tab-links "onclick="opentab('Education')">Educación</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Java Developer</span><br>Miau</li>
+                            <li><span>Unity Developer</span><br>Miau</li>
+                            <li><span>??¿¿ Developer</span><br>Miau</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="Experience">
+                        <ul>
+                            <li><span>Todavia en progreso de conseguir</span><br>:)</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2013-2018</span><br>Ciclo Basico Común y Escuela Superior de Comercio</li>
+                            <li><span>2019</span><br>Escuela n°20 Ciencias Sociales</li>
+                            <li><span>2020-actualidad</span><br>Licenciatura en Ciencias de la Computación, Universidad Nacional del Sur</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- --------services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Servicios </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>miaumiau
+                        miaumiau
+                    </p>
+                    <a href="#">ver más</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Developer</h2>
+                    <p>miaumiau
+                        miaumiau
+                    </p>
+                    <a href="#">ver más</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-unity"></i>
+                    <h2>Unity Developer</h2>
+                    <p>miaumiau
+                        miaumiau
+                    </p>
+                    <a href="#">ver más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -------portfolio-------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="../sources/SilverWing.jpg">
+                    <div class="layer">
+                        <h3>SilverWing</h3>
+                        <p>Juego creado para la GameWorkJam de DVBahía</p>
+                        <a href="https://vvizard22.itch.io/silver-wing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="sources/SilverWing.jpg">
+                    <div class="layer">
+                        <h3>SilverWing</h3>
+                        <p>Juego creado para la GameWorkJam de DVBahía</p>
+                        <a href="https://vvizard22.itch.io/silver-wing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="sources/SilverWing.jpg">
+                    <div class="layer">
+                        <h3>SilverWing</h3>
+                        <p>Juego creado para la GameWorkJam de DVBahía</p>
+                        <a href="https://vvizard22.itch.io/silver-wing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Ver más</a>
+    </div>
+    <!-- --------- contact-------- -->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact me</h1>
+                        <p> jcdominguez01.jcd@gmail.com</p>
+                        <p>+5492915320028</p>
+                        <div class="social-icons">
+                            <a href="https://twitter.com/kushi___chan"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/kushi__chan/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/juan-cruz-dominguez-549b47121/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="../sources/CV-Español.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name = "submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Tu nombre" required>
+                            <input type="email" name="Email" placeholder="Tu mail" required>
+                            <textarea name="Message" rows="6" placeholder="Tu mensaje"></textarea>
+                            <button type="submit" class="btn btn2">Mandar</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
