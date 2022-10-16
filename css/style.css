@@ -25,7 +25,8 @@ body{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
+    
     flex-wrap: wrap;
 
 }
@@ -130,6 +131,10 @@ nav ul li a:hover::after{
 .tab-contents ul li span{
     color: #b54769;
     font-size: 14px;
+
+}
+.tab-contents ul li div{
+    margin-top: 3px;
 }
 .tab-contents{
     display: none;
